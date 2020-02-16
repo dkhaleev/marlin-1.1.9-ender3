@@ -379,11 +379,16 @@
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
+
+  //Ender-3 on E3D V6
+  #define DEFAULT_Kp 34.16
+  #define DEFAULT_Ki 4.17
+  #define DEFAULT_Kd 69.94
   
   // Creality Ender-3
-  #define DEFAULT_Kp 28.92
-  #define DEFAULT_Ki 2.99
-  #define DEFAULT_Kd 69.88
+//  #define DEFAULT_Kp 28.92
+//  #define DEFAULT_Ki 2.99
+//  #define DEFAULT_Kd 69.88
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
