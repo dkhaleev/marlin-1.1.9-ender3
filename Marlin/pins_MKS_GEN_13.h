@@ -41,6 +41,7 @@
 // Power outputs EFBF or EFBE
 #define MOSFET_D_PIN 7
 
+//#define IS_RAMPS_EFB
 //
 // PSU / SERVO
 //
